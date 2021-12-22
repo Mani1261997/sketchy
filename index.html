@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\main.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+  <!--header-->
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">GetBook</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link mx-4" href="#">Home
+                            <span class="sr-only"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Notebooks</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="">
+                  <button class="btn btn-secondary" type="search">Search</button>
+      
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--//header-->
+     <!--main content-->
+  <main class="container">
+    <!--single-product-->
+    <div class="single-product">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="sass\images\pikr.jpg" alt="" class="single-product__img img-fluid">
+        </div>
+        <div class="col-md-7">
+          <h2 class="single-product__data__tittle">Plain Notebook</h2>
+          <hr>
+          <p class="single-product__data__about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
+            deleniti placeat fugit consequatur pariatur dicta impedit aliquid. Magni distinctio eos reiciendis ducimus
+            dolores consequuntur ipsam, sed nihil atque sit porro?</p>
+          <table class="table table-sm w-50 single-product__data__table">
+            <tbody>
+              <tr>
+                <td>Height</td>
+                <td>0.5cm</td>
+              </tr>
+              <tr>
+                <td>Width</td>
+                <td>5cm</td>
+              </tr>
+              <tr>
+                <td>weight</td>
+                <td>50 gm</td>
+              </tr>
+              <tr>
+                <td>SKU</td>
+                <td>45861</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="h2 single-product__data__price">$15.00</p>
+          <form class="single-product__data__form">
+            <div class="form-row">
+              <div class="col-md-2 my-1">
+                <lable class="mr-sm-2 sr-only" for="number">Preference</lable>
+                <input class="form-control" type="number" name="quantity" min="1" max="5" id="number">
+                </div>
+                
+                  <button type="submit" class="btn btn-primary">Purchase</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </main>
+    <!--//main-->
+    <!--//single-product-->
+    <!--similar products-->
+   <section class="container similar-products">
+      <h3 class="similar-products__title">Similar Products</h3>
+<div class="row justify-content-center">
+  <div class="col-md-4">
+    <div class="similar-products__card">
+      <img src="sass\images\sea.jpg" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-tittle">Notebook Bundle</h5>
+        <p class="card-text"><a href="">Photo</a></p>
+        <p class="card-text">$17.00</p>
+        <a href="#" class="btn btn-primary streched-link">View</a>
+      </div>
+  </div>
+  </div>
+          <div class="col-md-4">
+        <div class="similar-products__card">
+          <img src="sass\images\stone.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-tittle">Notebook Bundle</h5>
+            <p class="card-text"><a href="">Photo</a></p>
+            <p class="card-text">$17.00</p>
+            <a href="#" class="btn btn-primary streched-link">View</a>
+          </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    </section>
+   
+    <!--/similar products-->
+    <!--footer-->
+<footer>
+ <div class="container footer">
+  <h2 class="footer__title">Get Notebook</h2>
+  <p class="small">All pics are from pikr.com</p>
+  </div>
+</footer>
+<!--//footer-->
+<script src="jquery.js"></script>
+<script src="popper.js"></script>
+<script src="bootstrap.js"></script>
+    </body>
+
+</html>

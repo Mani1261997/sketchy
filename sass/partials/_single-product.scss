@@ -1,0 +1,22 @@
+
+.single-product {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0px 60px 20px 60px;
+    border-color: gray;
+    margin-top: 10px;
+    padding: 10px;
+
+      &__img{
+         width: 100%;
+    }
+      &__data {
+     //
+      &__table {
+       margin: em(40) 0;
+    }
+      &__price {
+       margin: em(20) 0;
+    }
+   }
+ }

@@ -1,0 +1,16 @@
+.similar-products{
+    margin-top: auto;
+    
+        &__title{
+          padding: 5px;
+    }
+        &__card{
+          margin: 30px;
+          padding: 20px;
+          
+          border-width: 2px;
+          border-style: solid;
+          border-radius: 0px 60px 20px 60px;
+          border-color: gray;
+    }
+}
